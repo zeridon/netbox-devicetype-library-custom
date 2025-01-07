@@ -1,0 +1,36 @@
+---
+manufacturer: MikroTik
+model: RB751G-2HnD
+slug: mikrotik-rb751g-2hnd
+part_number: RB751G-2HnD
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 230.0
+weight_unit: g
+comments: '[MikroTik RB751G-2HnD Datasheet](https://mikrotik.com/product/RB751G-2HnD)'
+power-ports:
+- name: Power
+  maximum_draw: 13
+  label: Power
+  description: dc jack
+interfaces:
+- name: ether1
+  type: 1000base-t
+  label: '1'
+  poe_mode: pd
+  poe_type: passive-24v-2pair
+- name: ether2
+  type: 1000base-t
+  label: '2'
+- name: ether3
+  type: 1000base-t
+  label: '3'
+- name: ether4
+  type: 1000base-t
+  label: '4'
+- name: ether5
+  type: 1000base-t
+  label: '5'
+- name: wlan1
+  type: ieee802.11n
