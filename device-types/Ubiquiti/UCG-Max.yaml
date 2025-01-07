@@ -1,0 +1,36 @@
+---
+manufacturer: Ubiquiti
+model: Cloud Gateway Max
+slug: ubiquiti-ucg-max
+front_image: true
+rear_image: true
+part_number: UCG-Max
+comments: |
+  Compact 2.5G Cloud Gateway with 30+ UniFi device / 300+ client support, 1.5 Gbps IPS routing, and selectable NVR storage.
+
+
+  weight:
+    * NS - 460 g
+    * 512G - 519 g
+
+description: '[Compact 2.5G Cloud Gateway](https://eu.store.ui.com/eu/en/category/cloud-gateways-compact/collections/cloud-gateway-max)'
+airflow: passive
+u_height: 0
+is_full_depth: false
+weight: 460
+weight_unit: g
+power-ports:
+  - name: PWR
+    type: usb-c
+    maximum_draw: 16.1
+interfaces:
+  - name: LAN 1
+    type: 2.5gbase-t
+  - name: LAN 2
+    type: 2.5gbase-t
+  - name: LAN 3
+    type: 2.5gbase-t
+  - name: LAN 4 / WAN 2
+    type: 2.5gbase-t
+  - name: WAN 1
+    type: 2.5gbase-t
