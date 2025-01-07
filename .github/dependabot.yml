@@ -1,0 +1,30 @@
+---
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
+    target-branch: master
+    assignees:
+      - zeridon
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
+    target-branch: master
+    assignees:
+      - zeridon
+  - package-ecosystem: devcontainers
+    directory: /
+    schedule:
+      interval: monthly
+    labels:
+      - dependencies
+    target-branch: master
+    assignees:
+      - zeridon
