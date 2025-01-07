@@ -1,0 +1,20 @@
+---
+manufacturer: Ubiquiti
+model: Swiss Army Knife
+slug: ubiquiti-uk-ultra
+front_image: true
+part_number: UK-Ultra
+u_height: 0.0
+airflow: passive
+weight: 173.0
+weight_unit: g
+comments: '[UniFi Swiss Army Knife Access Point](https://store.ui.com/products/uk-ultra)'
+interfaces:
+- name: lan0
+  type: 1000base-t
+  poe_mode: pd
+  poe_type: type1-ieee802.3af
+- name: wlan0
+  type: ieee802.11ax
+- name: wlan1
+  type: ieee802.11ax
