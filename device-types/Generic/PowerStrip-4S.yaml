@@ -7,7 +7,6 @@ airflow: passive
 description: 'Generic 4 socket power strip'
 power-ports:
 - name: IN
-  type: null
   maximum_draw: 3500
 power-outlets:
 - name: OUT-1
