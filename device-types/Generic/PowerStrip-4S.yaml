@@ -1,0 +1,24 @@
+---
+manufacturer: Generic
+model: PowerStrip-4S
+slug: generic-powerstrip-4s
+u_height: 0.0
+airflow: passive
+description: 'Generic 4 socket power strip'
+power-ports:
+- name: IN
+  type: null
+  maximum_draw: 3500
+power-outlets:
+- name: OUT-1
+  power_port: IN
+  label: '1'
+- name: OUT-2
+  power_port: IN
+  label: '2'
+- name: OUT-3
+  power_port: IN
+  label: '3'
+- name: OUT-4
+  power_port: IN
+  label: '4'
