@@ -1,0 +1,14 @@
+---
+manufacturer: Generic
+model: PowerSocket-1S
+slug: generic-powersocket-1s
+u_height: 0.0
+airflow: passive
+description: 'Generic 1 socket power socket'
+power-ports:
+- name: IN
+  maximum_draw: 3500
+power-outlets:
+- name: OUT-1
+  power_port: IN
+  label: '1'
