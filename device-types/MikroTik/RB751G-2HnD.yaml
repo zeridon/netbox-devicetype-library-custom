@@ -2,6 +2,7 @@
 manufacturer: MikroTik
 model: RB751G-2HnD
 slug: mikrotik-rb751g-2hnd
+front_image: true
 part_number: RB751G-2HnD
 u_height: 0.0
 is_full_depth: false
