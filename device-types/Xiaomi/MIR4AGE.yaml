@@ -1,0 +1,28 @@
+---
+manufacturer: Xiaomi
+model: Mi Router 4A Gigabit Edition
+slug: xiaomi-mir4a-ge
+front_image: true
+part_number: MIR4AGE
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 300.0
+weight_unit: g
+power-ports:
+- name: PWR
+  type: dc-terminal
+  maximum_draw: 12
+interfaces:
+- name: lan1
+  type: 1000base-tx
+- name: lan2
+  type: 1000base-tx
+- name: wan
+  type: 1000base-tx
+- name: wlan0
+  type: ieee802.11n
+- name: wlan1
+  type: ieee802.11ac
+  rf_role: ap
+
