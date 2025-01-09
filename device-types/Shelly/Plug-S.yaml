@@ -1,0 +1,21 @@
+manufacturer: Shelly
+model: Plug S
+slug: shelly-plug-s
+front_image: true
+u_height: 0.0
+airflow: passive
+comments: |
+  [Shelly Plug S - Docs](https://www.shelly.com/blogs/documentation/shelly-plug-s)
+  
+  [Shelly Plug S - Developer Docs](https://shelly-api-docs.shelly.cloud/gen1/#shelly-plug-plugs)
+power-ports:
+- name: IN
+  maximum_draw: 2500
+power-outlets:
+- name: OUT
+  power_port: IN
+interfaces:
+- name: wlan0
+  type: ieee802.11n
+  rf_role: station
+
