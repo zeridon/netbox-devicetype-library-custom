@@ -1,0 +1,16 @@
+---
+manufacturer: Daikin
+model: BRP069B42
+slug: daikin-brp069b42
+front_image: true
+part_number: 'BRP069B42'
+u_height: 0.0
+is_full_depth: false
+airflow: passive
+weight: 50.0
+weight_unit: g
+comments: '[BRP069B42 Product page](https://www.daikin.eu/en_us/products/product.html/BRP069B42.html)'
+interfaces:
+- name: wlan0
+  type: ieee802.11n
+  rf_role: station
