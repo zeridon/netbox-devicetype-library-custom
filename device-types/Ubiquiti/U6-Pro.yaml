@@ -12,13 +12,13 @@ weight: 460.0
 weight_unit: g
 comments: '[Access Point U6 Pro](https://store.ui.com/products/unifi-ap6-professional)'
 interfaces:
-- name: Port 1
-  type: 1000base-t
-  enabled: true
-  mgmt_only: true
-  poe_mode: pd
-  poe_type: type2-ieee802.3at
-- name: Wlan 0
-  type: ieee802.11n
-- name: Wlan 1
-  type: ieee802.11ax
+  - name: Port 1
+    type: 1000base-t
+    enabled: true
+    mgmt_only: true
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: Wlan 0
+    type: ieee802.11n
+  - name: Wlan 1
+    type: ieee802.11ax

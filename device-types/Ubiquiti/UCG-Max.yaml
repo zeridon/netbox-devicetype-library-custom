@@ -20,22 +20,22 @@ is_full_depth: false
 weight: 460
 weight_unit: g
 power-ports:
-- name: PWR
-  type: usb-c
-  maximum_draw: 16
+  - name: PWR
+    type: usb-c
+    maximum_draw: 16
 interfaces:
-- name: LAN 1
-  type: 2.5gbase-t
-  label: '1'
-- name: LAN 2
-  type: 2.5gbase-t
-  label: '2'
-- name: LAN 3
-  type: 2.5gbase-t
-  label: '3'
-- name: LAN 4 / WAN 2
-  type: 2.5gbase-t
-  label: '4'
-- name: WAN 1
-  type: 2.5gbase-t
-  label: WAN
+  - name: LAN 1
+    type: 2.5gbase-t
+    label: '1'
+  - name: LAN 2
+    type: 2.5gbase-t
+    label: '2'
+  - name: LAN 3
+    type: 2.5gbase-t
+    label: '3'
+  - name: LAN 4 / WAN 2
+    type: 2.5gbase-t
+    label: '4'
+  - name: WAN 1
+    type: 2.5gbase-t
+    label: WAN

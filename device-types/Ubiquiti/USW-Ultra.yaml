@@ -12,39 +12,39 @@ weight: 320.0
 weight_unit: g
 comments: "203 x 76 x 33 mm (8 x 3 x 1.3\") 8 (7 PoE+; 1 PoE++ input)\r\n\r\n[Utility Switch Ultra](https://store.ui.com/us/en/category/switching-utility/collections/pro-ultra/products/usw-ultra)"
 power-ports:
-- name: Input
-  type: dc-terminal
-  maximum_draw: 210
+  - name: Input
+    type: dc-terminal
+    maximum_draw: 210
 interfaces:
-- name: Port 1
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 2
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 3
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 4
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 5
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 6
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 7
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type2-ieee802.3at
-- name: Port 8
-  type: 1000base-t
-  poe_mode: pse
-  poe_type: type3-ieee802.3bt
+  - name: Port 1
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 2
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 3
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 4
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 5
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 6
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 7
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type2-ieee802.3at
+  - name: Port 8
+    type: 1000base-t
+    poe_mode: pse
+    poe_type: type3-ieee802.3bt

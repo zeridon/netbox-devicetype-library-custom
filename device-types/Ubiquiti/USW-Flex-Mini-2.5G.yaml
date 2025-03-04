@@ -17,19 +17,19 @@ power-ports:
     type: usb-c
     maximum_draw: 5
 interfaces:
-- name: Port 1
-  type: 1000base-t
-  label: '1'
-- name: Port 2
-  type: 1000base-t
-  label: '2'
-- name: Port 3
-  type: 1000base-t
-  label: '3'
-- name: Port 4
-  type: 1000base-t
-  label: '4'
-- name: Port 5
-  type: 1000base-t
-  label: PoE IN
-  poe_mode: pd
+  - name: Port 1
+    type: 1000base-t
+    label: '1'
+  - name: Port 2
+    type: 1000base-t
+    label: '2'
+  - name: Port 3
+    type: 1000base-t
+    label: '3'
+  - name: Port 4
+    type: 1000base-t
+    label: '4'
+  - name: Port 5
+    type: 1000base-t
+    label: PoE IN
+    poe_mode: pd
