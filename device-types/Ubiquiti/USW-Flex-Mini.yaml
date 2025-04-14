@@ -15,7 +15,7 @@ comments: 107 x 70 x 21 mm (4.2 x 2.8 x 0.8")
 power-ports:
   - name: PWR
     type: usb-c
-    maximum_draw: 2.5
+    maximum_draw: 3
 interfaces:
   - name: Port 1
     label: PoE IN
