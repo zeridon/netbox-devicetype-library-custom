@@ -11,6 +11,7 @@ comments: |
   [Shelly Plug S - Developer Docs](https://shelly-api-docs.shelly.cloud/gen1/#shelly-plug-plugs)
 power-ports:
   - name: IN
+    type: ita-ef
     maximum_draw: 2500
 power-outlets:
   - name: OUT
