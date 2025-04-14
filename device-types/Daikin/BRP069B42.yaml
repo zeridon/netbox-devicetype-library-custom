@@ -10,9 +10,9 @@ airflow: passive
 weight: 50.0
 weight_unit: g
 comments: '[BRP069B42 Product page](https://www.daikin.eu/en_us/products/product.html/BRP069B42.html)'
-power_ports:
+power-ports:
   - name: Power
-    maximum_draw: 2w
+    maximum_draw: 2
     type: hardwired
 interfaces:
   - name: wlan0

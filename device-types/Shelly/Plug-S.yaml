@@ -15,6 +15,7 @@ power-ports:
     maximum_draw: 2500
 power-outlets:
   - name: OUT
+    type: ita-f
     power_port: IN
 interfaces:
   - name: wlan0
