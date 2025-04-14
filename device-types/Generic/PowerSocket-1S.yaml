@@ -7,6 +7,7 @@ airflow: passive
 description: Generic 1 socket power socket
 power-ports:
   - name: IN
+    type: ita-ef
     maximum_draw: 3500
 power-outlets:
   - name: OUT-1
