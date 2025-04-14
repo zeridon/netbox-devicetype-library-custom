@@ -2,7 +2,7 @@
 name: Gather New NetBox Generated Schema JSON
 on:
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 9 * * *
 jobs:
   schema-update:
     runs-on: ubuntu-latest
