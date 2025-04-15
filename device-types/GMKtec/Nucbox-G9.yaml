@@ -1,0 +1,24 @@
+---
+manufacturer: GMKtec
+model: Nucbox G9
+slug: gmktek-nucbox-g9
+part_number: nucbox-g9
+front_image: true
+rear_image: true
+u_height: 1.0
+is_full_depth: false
+airflow: left-to-right
+weight: 2.44
+weight_unit: lb
+comments: '[GMKtec Nucbox G9 Product Page](https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9)'
+power-ports:
+  - name: PWR
+    type: dc-terminal
+    maximum_draw: 65
+interfaces:
+  - name: eth1
+    type: 2.5gbase-t
+    label: eth1
+  - name: eth2
+    type: 2.5gbase-t
+    label: eth2
