@@ -36,4 +36,4 @@ KNOWN_MODULES = set()
 USE_LOCAL_KNOWN_SLUGS = False
 USE_UPSTREAM_DIFF = True
 
-NETBOX_DT_LIBRARY_URL = "https://github.com/netbox-community/devicetype-library.git"
+NETBOX_DT_LIBRARY_URL = "https://github.com/zeridon/netbox-devicetype-library-custom"
